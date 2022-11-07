@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.recipe-img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+a:link,a:visited{
+    color: black;
+    text-decoration: underline dashed blue;
+    text-underline-offset: 3px;
+    padding: 2px;
+}
+
+a:hover {
+    background-color: hsl(240, 100%, 50%, 20%);
+    border-radius: 10%;
+    padding: 2px;
+}
